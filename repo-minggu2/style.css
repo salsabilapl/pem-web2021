@@ -1,0 +1,108 @@
+body{
+    width: 1170px;
+    height: 1000px;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f1ec;
+    
+}
+
+.biodata{
+    margin: center;
+    width: auto;
+    padding: 100px;
+}
+.biodata h1{
+    text-align: center;
+    color: #012554;
+    font-size: 30px;
+    font-weight: normal;
+}
+.biodata img{
+    float: left;
+    margin : 10px;
+    border : #c6c3bc 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+    margin-left: 100px;
+    background-color: #ffffff;
+}
+.bio{
+    border-top:#ce2929 2px solid;
+    font-size: 13px;
+    padding-left: 20px;
+    margin-left: 20px;
+
+}
+.bio td{
+    padding-top: 18px ;
+    padding-right: 30px;
+}
+
+.jadwal{
+    width: 750px;
+    height: 400px;
+    margin: center;
+    background-color: #ffffff;
+    margin-left: 200px;
+    border: #c6c3bc 1px solid
+}
+.jadwal h3, .organisasi h3{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    color:#333333;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.kontenJadwal, .macam{
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+.kontenJadwal td, .organisasi td{
+    padding-right: 30px;
+    color:#333333;
+}
+.organisasi{
+    width: 750px;
+    height: 150px;
+    margin: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    border: #c6c3bc 1px solid;
+}
+.message{
+    padding: 8px 10px;
+    background-color: #d9534f;
+    color:#FFFFFF;
+    font-size: 12px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.kontenJadwal, th, td{
+    padding: 5px 10px;
+}
+.top{
+    background: #012554;
+}
+.top td{
+    color: #ffffff;
+}
+.kontenJadwal tr:nth-child(even){
+    background: #f9f9f9;
+}
+.macam tr:nth-child(even){
+    background: #f9f9f9;
+
+}
