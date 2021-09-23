@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    height: 1000px;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f1ec;
+    
+}
+.header{
+    height: 50px;
+    background-color: blue;
+    color: #FFFFFF;
+}
+.header ul{
+    float: right;
+    list-style: none;
+}
+.header ul li{
+    float: left;
+    padding-right: 20px;
+}
+.header a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header img{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding: 2px;
+    float: left;
+    background-color: #FFFFFF;
+}
+.content,.portofolio{
+    padding-top: 30px;
+    width: 1170px;
+    height: 400px;
+    margin: 0 auto;
+}
+.content img{
+    border-radius: 1000px;
+}
+.content a{
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.content h3{
+    color: #515151;
+}
+.content h5{
+    color: #515151;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+.portofolio{
+    height: auto;
+}
+.portofolio img{
+    width: 250px;
+    padding:25px;
+    padding-bottom: 0%;
+}
+.kotak {
+    width: 300px;
+    height: auto;
+    background-color: rgb(212, 222, 245);
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: #ececec 1px solid;
+}
+.kotak p,h4{
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: blue;
+    color: #FFFFFF;
+    height: 60px;
+    text-align: center;
+}
+.footer img{
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    padding: 2px;
+    margin-bottom: 0%;
+}
+.footer table{
+    margin-left:auto;margin-right:auto;
+}
