@@ -1,0 +1,11 @@
+@media (max-width: 1000px){
+    .bio{
+        width:50%;
+    }
+}
+
+@media (max-width: 670px){
+    .bio{
+        width: 100%;
+    }
+}
