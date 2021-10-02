@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulir PPDB</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2>
+        <form action="prosesppdb.php" method="POST">
+            <table>
+                <tr>
+                    <td><b>Nomor</b></td>
+                    <td colspan="3"><b>Info Pedaftaran</b></td>
+                </tr>
+                <tr>
+                    <td align="center">1</td>
+                    <td><label for="fnisn">NISN</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="fnisn" name="fnisn" placeholder="1809599001"></td>
+                </tr>
+                <tr>
+                    <td align="center">2</td>
+                    <td><label for="fasal">Asal Sekolah</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fasal" name="fasal"></td>
+                </tr>
+                <tr>
+                    <td align="center">3</td>
+                    <td><label for="ftahunLulus">Tahun Lulus</label></td>
+                    <td>:</td>
+                    <td><input type="date" id="ftahunLulus" name="ftahunLulus"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><b>Data Calon Peserta</b></td>
+                </tr>
+                <tr>
+                    <td align="center">4</td>
+                    <td><label for="fnama">Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fnama" name="fnama"></td>
+                </tr>
+                <tr>
+                    <td align="center">5</td>
+                    <td><label for="fnik">NIK</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="fnik" name="fnik"></td>
+                </tr>
+                <tr>
+                    <td align="center">6</td>
+                    <td><label for="fnik">Tempat, Tanggal Lahir</label></td>
+                    <td>:</td>
+                    <td colspan="3"><input type="text id="fnik" name="fnik"></td>
+                </tr>
+                <tr>
+                    <td align="center"></td>
+                    <td colspan="3">Foto Copy Akte Kelahiran Yang Telah Dilegalisir (<i>Di Lampirkan</i>)</td>
+                </tr>
+                <tr>
+                    <td align="center">9</td>
+                    <td><label for="fkelamin">Jenis Kelamin</label></td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" id="flaki" name="fkelamin" value="laki-laki"> 
+                        <label for="laki-laki">Laki-laki</label>
+                        <input type="radio" id="fperempuan" name="fkelamin" value="perempuan"> 
+                        <label for="perempuan">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">10</td>
+                    <td><label for="falamat">Alamat</label></td>
+                    <td>:</td>
+                    <td>
+                        <textarea  cols=20 name="falamat"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">11</td>
+                    <td><label for="femail">E-mail</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="femail" name="femail"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><b>Data Orang Tua</b></td>
+                </tr>
+                <tr>
+                    <td align="center">12</td>
+                    <td><label for="fnomorKK">Nomor Kartu Keluarga</label></td>
+                    <td>:</td>
+                    <td><input type="number" id="fnomorKK" name="fnomorKK"></td>
+                </tr>
+                <tr>
+                    <td align="center">12</td>
+                    <td><label for="fnamaAyah">Nama Ayah Kandung</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fnamaAyah" name="fnamaAyah"></td>
+                </tr>
+                <tr>
+                    <td align="center">13</td>
+                    <td><label for="fAgamaAyah">Agama</label></td>
+                    <td>:</td>
+                    <td>
+                        <input list="fAgamaAyah" name="fAgamaAyah">
+                          <datalist id="fAgamaAyah">
+                            <option value="Islam">
+                            <option value="Kristen">
+                            <option value="Katolik">
+                            <option value="Hindu">
+                            <option value="Budha">
+                            <option value="Konghucu">
+                            <option value="Kepercayaan Lainnya">
+                          </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">14</td>
+                    <td><label for="fpekerjaanAyah">Pekerjaan</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fpekerjaanAyah" name="fpekerjaanAyah"></td>
+                </tr>
+                <tr>
+                    <td align="center">15</td>
+                    <td><label for="fnamaIbu">Nama Ibu Kandung</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fnamaIbu" name="fnamaIbu"></td>
+                </tr>
+                <tr>
+                    <td align="center">16</td>
+                    <td><label for="fAgamaIbu">Agama</label></td>
+                    <td>:</td>
+                    <td>
+                        <input list="fAgamaIbu" name="fAgamaIbu">
+                          <datalist id="fAgamaIbu">
+                            <option value="Islam">
+                            <option value="Kristen">
+                            <option value="Katolik">
+                            <option value="Hindu">
+                            <option value="Budha">
+                            <option value="Konghucu">
+                            <option value="Kepercayaan Lainnya">
+                          </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">14</td>
+                    <td><label for="fpekerjaanIbu">Pekerjaan</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="fpekerjaanIbu" name="fpekerjaanIbu"></td>
+                </tr>
+                <tr>
+                    <td align="center">10</td>
+                    <td><label for="falamatOrtu">Alamat Orang Tua</label></td>
+                    <td>:</td>
+                    <td>
+                        <textarea  cols=20 name="falamatOrtu"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+
+</html>
