@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bs5/dist/css/bootstrap.min.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="icon/css/all.min.css">
+
+    <!-- CSS Lainnya -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script></script>
+    <title>Beautysharing.com</title>
+</head>
+
+<body>
+
+    <!-- navbar menu -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top"style="background-color: #424874;"id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" height="35px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <div></div>
+                <ul class="nav nav-pills">
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="cari produk, artikel" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">
+                      <a href="product.html"><img src="assets/search.png" height="20px"></a>
+                    </button>
+                </form>
+                <a href="login.html" class="btn bg-custom tebel-sedang shadow">masuk</a>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- konten -->
+
+    <div class="container" style="background-color:  #424874;">
+
+        <br><br>
+
+        <div class="row mt-5 mb-5">
+
+            <div class="col-lg-12 gambar">
+                <img src="assets/header.png" width="100%">
+            </div>
+
+            <div class="col-sm-12 position-relative p-4">
+
+                <div class="position-absolute top-0 end-0">
+                    <img src="assets/header.png" class="img">
+                </div>
+                <h1 class="display-6 text-truncate tebel">DISCOVER</h6>
+                <h1 class="display-6 text-truncate tebel">YOUR HOLY  </h1>
+                <h1 class="display-6 text-truncate tebel">GRAIL SKINCARE  </h1>
+                <h1 class="display-6 text-truncate tebel">PRODUCT </h1>
+
+                <div class="tombol mt-5">
+                    <a href="register.html" class="button rounded-pill shadow tebel-sedang">Join Community</a>
+                </div>
+
+                <br>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Filter -->
+    <div class="container" style="background-color:  #F4EEFF;border-radius: 25px;height: 450px;">
+        <br>
+        <h5 class="subjudul">I am looking for : </h5>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" style="border-radius: 10px;background-color: #DCD6F7;border: #424874 1px solid;">
+            <option selected>Select a product category...</option>
+            <option value="1">Cleansers</option>
+            <option value="2">Toners</option>
+            <option value="3">Serums, Essence, Ampoule</option>
+            <option value="4">Toners</option>
+            <option value="5">Moisturizers</option>
+            <option value="6">Sunscreen</option>
+            <option value="7">Eye Care</option>
+        </select>
+        <br>
+        <h5 class="subjudul">My skin type : </h5>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" style="border-radius: 10px;background-color: #DCD6F7;border: #424874 1px solid;">
+            <option selected>Select a product category...</option>
+            <option value="1">Normal Skin</option>
+            <option value="2">Dry Skin</option>
+            <option value="3">Oily Skin</option>
+            <option value="4">Combination skin</option>
+            <option value="5">Sensitive skin</option>
+            <option value="6"></option>
+        </select>
+        <br>
+        <h5 class="subjudul">My skin type : </h5>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+        <select class="js-example-basic-multiple" name="states[]" multiple="multiple" style="width: 100%;">
+            <option value="AL">Paraben free</option>
+            <option value="WY">Alcohol free</option>
+            <option value="ID">Silicone free</option>
+            <option value="GE">Allerge free</option>
+            <option value="KO">Korean product</option>
+            <option value="WE">Western product</option>
+            <option value="LO">Local product</option>
+        </select>
+
+        <script>
+            $(document).ready(function() {
+                $('.js-example-basic-multiple').select2();
+            });
+        </script>
+
+        <div class="tombol mt-5">
+            <a href="product.html" class="button rounded-pill shadow tebel-sedang">Show Product</a>
+        </div>
+    </div>
+    <!-- Kategori -->
+    <div class="container" style="background-color:  #F4EEFF;border-radius: 25px;height: 310px; margin-top: 50px;">
+        <br>
+        <h5 class="subjudul">KATEGORI</h5>
+        <br><br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col1" >
+              <a href="product.html" style="text-decoration:none">
+              <div class="card h-200">
+                <img src="assets/s1.png" class="card-img-top" alt="product">
+                <div class="card-body">
+                  <h5 class="card-title">Cleanser</h5>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col1">
+              <a href="product.html" style="text-decoration:none">
+              <div class="card h-200">
+                <img src="assets/s2.png" class="card-img-top" alt="product">
+                <div class="card-body">
+                  <h5 class="card-title">Serum</h5>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col1">
+              <a href="product.html" style="text-decoration:none">
+                <div class="card h-200">
+                <img src="assets/s3.png" class="card-img-top" alt="product">
+                <div class="card-body">
+                  <h5 class="card-title">Moist</h5>
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col1">
+              <a href="product.html" style="text-decoration:none">
+              <div class="card h-200">
+                  <img src="assets/s4.png" class="card-img-top" alt="product">
+                  <div class="card-body">
+                    <h5 class="card-title">Sunscreen</h5>
+                  </div>
+                </div>
+              </a>
+                
+              </div>
+          </div>
+    </div>
+    <!-- Display Review Produk -->
+    <div class="container" style="background-color:  #F4EEFF;border-radius: 25px;height: 395px;margin-top: 50px;">
+        <br>
+        <h5 class="subjudul">OUR COMMUNITY</h5>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/product.png" class="card-img-top" alt="product">
+                <div class="card-body">
+                  <h5 class="card-title">My Best Hydrating Moist</h5>
+                  <p class="card-text">3 products</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                        <table width="100%">
+                          <tr>
+                                <th>
+                                  <img src="assets/pp1.png" width=20px> louimina</th>
+                                <th class="like">
+                                  <button class="like_btn">
+                                    <span id="icon"><i class="far fa-heart"></i></span>
+                                    <span id="count">0</span> Like
+                                  </button>
+                                </th>
+                          </tr>
+                        </table>
+                    </small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/product.png" class="card-img-top" alt="product">
+                <div class="card-body">
+                  <h5 class="card-title">My Best Exfoliating Toner</h5>
+                  <p class="card-text">3 products</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">
+                            <table width="100%">
+                              <tr>
+                                    <th><img src="assets/pp2.png" width=20px> annafold</th>
+                                    <th class="like">
+                                      <button class="like_btn">
+                                        <span id="icon"><i class="far fa-heart"></i></span>
+                                        <span id="count">0</span> Like
+                                      </button>
+                                    </th>
+                              </tr>
+                            </table>
+                    </small>
+                  </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="assets/product.png" class="card-img-top" alt="product">
+                <div class="card-body">
+                  <h5 class="card-title">My Holygrail of Years</h5>
+                  <p class="card-text">5 product</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                          <table width="100%">
+                            <tr>
+                                  <th><img src="assets/pp3.png" width=20px> dianaaa</th>
+                                  <th class="like">
+                                    <button class="like_btn">
+                                      <span id="icon"><i class="far fa-heart"></i></span>
+                                      <span id="count">0</span> Like
+                                    </button>
+                                  </th>
+                            </tr>
+                          </table>
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bs5/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="icon/js/all.min.js"></script>
+    <script src="js/onscroll.js"></script>
+
+    <script src="js/like.js"></script>
+
+
+</body>
+<section id="footer" class="pt-5">
+    <!-- End of .container -->
+    <footer class="text-center text-lg-start bg-dark text-muted" >
+            <footer class="bg-dark bg-opacity-50 text-center">
+                <!-- Section: Links  -->
+                <section class="" style="background-color: #424874;color: #FFFF;">
+                    <div class="container text-center text-md-start mt-5">
+                        <!-- Grid row -->
+                        <div class="row mt-3" style="padding-top: 20px;">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <!-- Content -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    <i class="fas fa-gem me-3"></i><img src="assets/logo.png" width="70%">
+                                </h6>
+                                <p>
+                                    Find the latest reviews and start to review 
+                                    the skin care, makeup, haircare, bodycare,
+                                    and local and international beauty brands.
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                   About US
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">Feedback</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Collaboration</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset"></a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Help</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Community
+                                </h6>
+                                <p>
+                                    <a href="#!" class="text-reset">How to join</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Terms And Conditions</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Privacy Policy</a>
+                                </p>
+                                <p>
+                                    <a href="#!" class="text-reset">Help</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <!-- Links -->
+                                <h6 class="text-uppercase fw-bold mb-4">
+                                    Contact
+                                </h6>
+                                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                                <p>
+                                    <i class="fas fa-envelope me-3"></i>
+                                    info@example.com
+                                </p>
+                                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                            </div>
+                            <!-- Grid column -->
+                        </div>
+                        <!-- Grid row -->
+                    </div>
+                </section>
+                <!-- Section: Links  -->
+            </footer>
+    </footer>
+</section>
+
+</html>

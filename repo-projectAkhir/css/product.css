@@ -1,0 +1,103 @@
+body{
+  background-color: #DCD6F7;
+}
+.kontenbarang{
+  margin-top: 100px;
+}
+.barang {
+  background: #F4EEFF;
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.judul{
+  text-align: center;
+  color: #424874;
+  font-weight: bold;
+}
+
+.ratings i {
+  font-size: 16px;
+  color: #424874;
+}
+
+.strike-text {
+  color: #424874;
+  text-decoration: line-through
+}
+
+.product-image {
+  width: 100%
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 3px;
+  background-color: #424874;
+  border-radius: 50%;
+  display: inline-block
+}
+
+.spec-1 {
+  color: #938787;
+  font-size: 15px
+}
+
+h5 {
+  font-weight: 400
+}
+
+.para {
+  font-size: 16px
+}
+  
+
+
+
+@media screen and (max-width: 600px) {
+  .img{
+    display: none;
+    width: 500px;
+  }
+
+  .gambar{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img{
+    display: none;
+    width: 500px;
+  }
+
+  .gambar{
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 1199px) {
+  .img{
+    width: 500px;
+    z-index: -1;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .img{
+    width: 300px;
+    z-index: -1;
+  }
+
+}
+
+
+
+
